@@ -16,11 +16,15 @@ namespace BankApp
         {
             Console.WriteLine("Tämä on Tietokannat 2019 harjoitustyö");
             //bankRepository.CreateBank(bank);
-            //bankRepository.GetBanks();
+            bankRepository.GetBanks();
             //bankRepository.UpdateBank(bank);
             //bankRepository.GetBanks();
             //bankRepository.DeleteBank(1);
             customerRepository.Create(customer);
+            customerRepository.GetCustomers();
+            customerRepository.UpdateCustomer(customer);
+            customerRepository.GetCustomers();
+            customerRepository.DeleteCustomer(1);
             customerRepository.GetCustomers();
 
             Console.ReadKey();
